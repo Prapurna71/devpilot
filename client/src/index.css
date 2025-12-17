@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8f9fa;
+  color: #202124;
+}
+
+/* Layout */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  color: #5f6368;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1558c0;
+}
+
+/* API Cards */
+.api-card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+}
+
+.api-card:hover {
+  background: #f1f3f4;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Logs */
+.log {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.log.up {
+  background: #e6f4ea;
+  color: #137333;
+}
+
+.log.down {
+  background: #fce8e6;
+  color: #a50e0e;
+}
